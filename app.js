@@ -63,7 +63,7 @@ yargs.command({
 
 yargs.command({
   command: "remove",
-  describe: "Remove a note",
+  describe: "Remove a note [--title]",
   handler: function () {
     console.log("Removing a note");
   },
