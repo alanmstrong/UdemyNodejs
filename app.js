@@ -70,7 +70,7 @@ yargs.command({
 });
 yargs.command({
   command: "list",
-  describe: "List all notes",
+  describe: "List all notes if the file",
   handler: function () {
     console.log("Listing the notes");
   },
